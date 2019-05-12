@@ -24,12 +24,12 @@ public class Check_URL implements Runnable
                 }
                 else
                 {
-                    System.out.println("\n"+Thread.currentThread().getName()+"\n Valid Link: "+link+"\n No Data");
+                    System.out.println("\n"+Thread.currentThread().getName()+"\n Invalid Link: "+link+"\n No Data");
                 }
             }
             else
             {
-                System.out.println("\n"+Thread.currentThread().getName() +"\n Invalid Link: "+link);
+                System.out.println("\n"+Thread.currentThread().getName() +"\n Link does not exist: "+link);
             }
         }
         catch (MalformedURLException e)

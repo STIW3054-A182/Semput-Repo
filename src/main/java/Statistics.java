@@ -3,9 +3,7 @@ import java.util.List;
 
 public class Statistics
 {
-    //String[] AllState = {"KUALA LUMPUR", "PUTRAJAYA", "JOHOR", "KEDAH", "PERAK", "PULAU PINANG", "SELANGOR", "SABAH", "SARAWAK", "N.SEMBILAN", "PERLIS", "KELANTAN", "TERENGANU", "PAHANG", "MELAKA"};
     String[] AllState = {"PERAK", "PULAU PINANG", "N.SEMBILAN", "SELANGOR", "SABAH","KUALA LUMPUR", "PUTRAJAYA", "JOHOR", "KEDAH", "SARAWAK",  "PERLIS", "KELANTAN", "TERENGANU", "PAHANG", "MELAKA"};
-
 
     private List<Data> list;
 
